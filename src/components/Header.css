@@ -46,7 +46,6 @@
   /* background-color: red; */
 }
 
-
 .header {
   font-family: Montserrat;
   font-size: 18px;
@@ -64,4 +63,5 @@
   text-decoration: none;
   font-weight: bold;
   color: #000000;
+  margin-right: 2vw;
 }

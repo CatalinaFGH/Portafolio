@@ -2,9 +2,8 @@
     background-color: #fed7da;
     font-family: Montserrat;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
     flex-direction: column;
+    height: 100%;
 }
 
 .projects-title{
@@ -15,17 +14,37 @@
     justify-content: center;
 }
 
-.project-onu-photo{
-    height: 70vh;
-    /* margin-left: 5vw; */
-}
-
-.the-project-container{
+.the-project-container1{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    padding-bottom: 15vh;
+}
+
+.the-project-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15vh;
+    padding-top: 15vh;
+    /* margin-bottom: 15vh; */
+    /* margin-left: 20vw; */
+    /* margin-right: 20vw; */
+}
+
+.the-project-container2{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15vh;
+    padding-top: 15vh;
+    /* margin-bottom: 15vh; */
+    /* margin-left: 20vw; */
+    /* margin-right: 20vw; */
 }
 
 .project-description{
@@ -64,4 +83,23 @@
     border-radius: 18px;
     border: 2px solid #E55175;
     cursor: pointer;
+}
+
+.project-onu-photo{
+    height: 70vh;
+    /* margin-left: 5vw; */
+}
+
+.project-beautytips-photo{
+    height: 70vh;
+    /* margin-left: 5vw; */
+}
+
+.project-rickymorty-photo{
+    height: 70vh;
+}
+
+.project-cifradocesar-photo{
+    height: 70vh;
+    width: 17vw;
 }

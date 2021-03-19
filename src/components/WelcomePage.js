@@ -10,9 +10,7 @@ const WelcomePage = () => {
         <h4 className="welcome-subtitle">Front-End Developer</h4>
       </div>
 
-      <div>
       <img src={photo} className="welcome-page-photo" alt="my photo" />
-      </div>
 
      </div>
 

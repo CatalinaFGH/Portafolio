@@ -6,6 +6,8 @@ import Header from './components/Header';
 import WelcomePage from './components/WelcomePage';
 import Tools from './components/Tools'
 import Projects from './components/Projects'
+import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +15,8 @@ ReactDOM.render(
     <WelcomePage />
     <Tools />
     <Projects />
+    <AboutMe />
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
