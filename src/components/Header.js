@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import './Header.css';
 
 // function App() {
 //   return (
@@ -27,18 +28,20 @@ import './App.css';
 
 
 
-const App = () => {
+const Header = () => {
   return (
-    <div>
-      <header className="App-header">
-      <h2>Proyectos</h2>
-      <h2>Sobre mí</h2>
-      <h2>Contactos</h2>
+    <div className="header-container">
+
+      <header className="header">
+        <div className="header-content">
+          <a href="#" className="header-sections">Proyectos</a>
+          <a href="#" className="header-sections">Sobre mí</a>
+          <a href="#" className="header-sections">Contacto</a>
+        </div>
       </header>
-      <h1>¡Hola! Soy Catalina González</h1>
-      <h4>Front-End Developer</h4>
+
     </div>
   );
 
 }
-export default App;
+export default Header;

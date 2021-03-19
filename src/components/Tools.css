@@ -1,0 +1,19 @@
+.tools-content{
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tools-title{
+    margin-top: -20vh;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.tools-icons{
+    width: 90vw;
+}

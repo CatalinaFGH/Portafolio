@@ -1,0 +1,67 @@
+.projects-container{
+    background-color: #fed7da;
+    font-family: Montserrat;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.projects-title{
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-onu-photo{
+    height: 70vh;
+    /* margin-left: 5vw; */
+}
+
+.the-project-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.project-description{
+    /* text-align: justify; */
+    /* padding-right: 35vw; */
+    font-size: 17px;
+    padding-left: 5vw;
+    width: 45vw;
+}
+
+.the-project-name{
+    font-size: 25px;
+}
+
+.project-demo-button{
+    background-color: #E55175;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #ffffff;
+    width: 75px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 18px;
+    border: 2px solid #E55175;
+    cursor: pointer;
+}
+
+.project-github-button{
+    background-color: #ffffff;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #E55175;
+    width: 75px;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 18px;
+    border: 2px solid #E55175;
+    cursor: pointer;
+}

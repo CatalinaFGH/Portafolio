@@ -1,0 +1,27 @@
+.welcome-page-container{
+    height: 100vh;
+}
+
+.welcome-page{
+    background-color: #fed7da;
+    font-family: Montserrat;
+}
+
+.welcome-page-title{
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 12vw;
+}
+
+.welcome-subtitle{
+    font-size: 30px;
+    margin-left: 12vw;
+}
+
+.welcome-page-photo{
+    border-radius: 100%;
+    /* position: absolute; */
+    margin-top: -40vh;
+    margin-left: 65vw ;
+
+}

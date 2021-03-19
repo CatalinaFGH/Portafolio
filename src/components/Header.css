@@ -37,10 +37,31 @@
   }
 } */
 
-.App-header {
+.header-container{
+  position: fixed;
+  top: 0;
+  height: 14vh;
+  width: 100vw;
   background-color: #fed7da;
+  /* background-color: red; */
+}
+
+
+.header {
+  font-family: Montserrat;
+  font-size: 18px;
+  
+}
+
+.header-content{
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+}
+
+.header-sections{
+  padding: 2vw;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
 }
