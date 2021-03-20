@@ -16,3 +16,31 @@
 .contact-title{
     font-size: 40px;
 }
+
+.contact-gmail-logo{
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.contact-github-logo{
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.contact-linkedin-logo{
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.contact-links-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

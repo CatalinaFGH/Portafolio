@@ -11,13 +11,32 @@
     margin-left: 12vw;
 }
 
+.welcome-page-hand{
+    vertical-align: middle;
+    padding-bottom: 3vh;
+    height: 70px;
+    width: 70px;
+}
+
 .welcome-subtitle{
     font-size: 30px;
     margin-left: 12vw;
 }
 
+.welcome-page-laptop{
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+    padding-bottom: 2vh;
+}
+
 .welcome-page-photo{
     border-radius: 100%;
-    margin-top: -50vh;
-    margin-left: 65vw ;
+    /* margin-top: -70vh;
+    margin-left: 65vw; */
+    width: 300px;
+    height: 300px;
+
+    margin-left: 65vw;
+    margin-bottom: -65vh;
 }

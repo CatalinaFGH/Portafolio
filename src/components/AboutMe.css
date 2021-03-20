@@ -40,10 +40,12 @@
     font-family: Montserrat;
     font-weight: bold;
     color: #ffffff;
-    width: 200px;
+    width: 295px;
     padding: 10px;
-    border-radius: 18px;
+    border-radius: 25px;
     border: 2px solid #E55175;
     cursor: pointer;
     outline: none;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
