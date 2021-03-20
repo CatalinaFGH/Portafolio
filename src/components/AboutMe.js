@@ -1,5 +1,6 @@
 import './AboutMe.css'
 import photo from './photo.png'
+import CatalinaGonzalez_FrontEndDev from './CatalinaGonzalez_FrontEndDev.pdf'
 
 const AboutMe = () => {
     return (
@@ -19,7 +20,10 @@ const AboutMe = () => {
              bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla
              bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla</p>
              <img src={photo} className="aboutme-page-photo" alt="catalinagonzalez" />
-             <button className="aboutme-cv-button">VER CURRICULUM VITAE</button>
+
+             <a href= {CatalinaGonzalez_FrontEndDev} target="_blank">
+               <button className="aboutme-cv-button">VER CURRICULUM VITAE</button>
+             </a>
            </div>
            
        </div>

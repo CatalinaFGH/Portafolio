@@ -80,6 +80,7 @@
     cursor: pointer;
     outline: none;
     box-shadow: 0px 3px 3px #999;
+    transition: all .3s;
 }
 
 .project-demo-button:hover{
@@ -106,6 +107,7 @@
     cursor: pointer;
     outline: none;
     box-shadow: 0px 3px 3px #999;
+    transition: all .3s;
 }
 
 .project-github-button:hover{
