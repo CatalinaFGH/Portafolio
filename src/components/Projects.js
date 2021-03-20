@@ -6,11 +6,10 @@ import cifradocesar1 from './cifradocesar1.png'
 
 const Projects = () => {
     return (
-       <div className="projects-container">
+       <div className="projects-container" id="projects">
 
-         <div className="projects-title-container">
           <h2 className="projects-title">Proyectos</h2>
-          </div>
+
           <div className="the-project-container1">
             <div>
               <img src={onumujeres1} className="project-onu-photo" alt="tu oportunidad" />
@@ -18,9 +17,13 @@ const Projects = () => {
             <div className="project-description">
               <h3 className="the-project-name">TU OPORTUNIDAD</h3>
               <p>Plataforma web con vista mobile que permite la comunicación de las participantes del programa "Tu Oportunidad" de ONU mujeres.</p>
-              <p>Desarrollada con HTML5, CSS3, Vanilla Javascript y Firebase.</p>
-              <button className="project-demo-button">DEMO</button>
+              <p className="the-project-tools">Desarrollada con HTML5, CSS3, Vanilla Javascript y Firebase.</p>
+              <a rel="author" href="https://catalinafgh.github.io/Tu-oportunidad-ONU-Mujeres/src/" target="_blank">
+                <button className="project-demo-button">DEMO</button>
+              </a>
+              <a rel="author" href="https://github.com/CatalinaFGH/Tu-oportunidad-ONU-Mujeres" target="_blank">
               <button className="project-github-button">GITHUB</button>
+              </a>
             </div>
           </div>
 
@@ -31,9 +34,13 @@ const Projects = () => {
             <div className="project-description">
               <h3 className="the-project-name">SOCIAL NETWORK</h3>
               <p>Plataforma web SPA con vista mobile y temática de maquillaje.</p>
-              <p>Desarrollada con HTML5, CSS3, Vanilla Javascript y Firebase.</p>
-              <button className="project-demo-button">DEMO</button>
+              <p className="the-project-tools">Desarrollada con HTML5, CSS3, Vanilla Javascript y Firebase.</p>
+              <a rel="author" href="https://catalinafgh.github.io/SCL015-social-network/src/" target="_blank">
+                <button className="project-demo-button">DEMO</button>
+              </a>
+              <a rel="author" href="https://github.com/CatalinaFGH/SCL015-social-network" target="_blank">
               <button className="project-github-button">GITHUB</button>
+              </a>
             </div>
           </div>
 
@@ -44,9 +51,13 @@ const Projects = () => {
             <div className="project-description">
               <h3 className="the-project-name">DATA LOVERS</h3>
               <p>Plataforma web con vista mobile tipo enciclopedia de la serie "Rick and Morty". Permite filtrar y ordenar la data.</p>
-              <p>Desarrollada con HTML5, CSS3 y Vanilla Javascript.</p>
-              <button className="project-demo-button">DEMO</button>
+              <p className="the-project-tools">Desarrollada con HTML5, CSS3 y Vanilla Javascript.</p>
+              <a rel="author" href="https://catalinafgh.github.io/SCL015-data-lovers/src/" target="_blank">
+                <button className="project-demo-button">DEMO</button>
+              </a>
+              <a rel="author" href="https://github.com/CatalinaFGH/SCL015-data-lovers" target="_blank" >
               <button className="project-github-button">GITHUB</button>
+              </a>
             </div>
           </div>
 
@@ -57,9 +68,13 @@ const Projects = () => {
             <div className="project-description">
               <h3 className="the-project-name">CAESAR CIPHER</h3>
               <p>Plataforma web que permite cifrar y descrifrar texto con el método de cifrado césar.</p>
-              <p>Desarrollada con HTML5, CSS3 y Vanilla Javascript.</p>
-              <button className="project-demo-button">DEMO</button>
+              <p className="the-project-tools">Desarrollada con HTML5, CSS3 y Vanilla Javascript.</p>
+              <a rel="author" href="https://catalinafgh.github.io/SCL015-cipher/src/" target="_blank">
+                <button className="project-demo-button">DEMO</button>
+              </a>
+              <a rel="author" href="https://github.com/CatalinaFGH/SCL015-cipher" target="_blank">
               <button className="project-github-button">GITHUB</button>
+              </a>
             </div>
           </div>
        </div>

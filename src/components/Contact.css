@@ -1,8 +1,18 @@
 .contact-container{
     background-color: #ffffff;
-    height: 100vh;
     font-family: Montserrat;
+    height: 100vh;
+    padding: 6%;
+}
+
+.contact-title-container{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    
+}
+
+.contact-title{
+    font-size: 40px;
 }

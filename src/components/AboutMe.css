@@ -1,14 +1,18 @@
 .aboutme-container{
     height: 100vh;
     font-family: Montserrat;
+    padding: 6%;
+}
+
+.aboutme-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutme-title{
     font-weight: bold;
     font-size: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .aboutme-page-photo{
@@ -21,11 +25,14 @@
 }
 
 .aboutme-paragraph-container{
-    width: 50vw;
+    /* width: 50vw; */
     padding-left: 15vw;
-    display: flex;
-    flex-direction: column;
     
+}
+
+.aboutme-paragraph{
+    width: 50vw;
+    font-size: 20px;
 }
 
 .aboutme-cv-button{
@@ -38,4 +45,5 @@
     border-radius: 18px;
     border: 2px solid #E55175;
     cursor: pointer;
+    outline: none;
 }

@@ -34,9 +34,9 @@ const Header = () => {
 
       <header className="header">
         <div className="header-content">
-          <a href="#" className="header-sections">Proyectos</a>
-          <a href="#" className="header-sections">Sobre mí</a>
-          <a href="#" className="header-sections">Contacto</a>
+          <a href="#projects" className="header-sections">Proyectos</a>
+          <a href="#aboutme" className="header-sections">Sobre mí</a>
+          <a href="#contact" className="header-sections">Contacto</a>
         </div>
       </header>
 
