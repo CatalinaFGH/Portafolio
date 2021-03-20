@@ -72,10 +72,16 @@
 }
 
 .header-sections{
-  padding: 2vw;
+  padding: 5vh 2vw;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
   color: #000000;
-  margin-right: 2vw;
+  margin-right: 1vw;
+}
+
+.header-sections:hover{
+  background-color: #FFE2E5;
+  border-color: #C4174F;
+  color: #C4174F;
 }

@@ -83,7 +83,8 @@
 }
 
 .project-demo-button:hover{
-    background: #f79db5;
+    background-color: #C4174F;
+    border-color: #C4174F;
 }
 .project-demo-button:active{
     transform: translateY(4px);
@@ -108,7 +109,9 @@
 }
 
 .project-github-button:hover{
-    background: #f79db5;
+    background-color: #FFE2E5;
+    border-color: #C4174F;
+    color: #C4174F;
 }
 .project-github-button:active{
     transform: translateY(4px);

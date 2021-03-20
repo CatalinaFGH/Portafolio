@@ -49,3 +49,8 @@
     font-size: 18px;
     letter-spacing: 1px;
 }
+
+.aboutme-cv-button:hover{
+    background-color: #C4174F;
+    border-color: #C4174F;
+}
