@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.86d2c893.chunk.css",
-    "main.js": "/Portafolio/static/js/main.a91ce111.chunk.js",
-    "main.js.map": "/Portafolio/static/js/main.a91ce111.chunk.js.map",
-    "runtime-main.js": "/Portafolio/static/js/runtime-main.91ce62ca.js",
-    "runtime-main.js.map": "/Portafolio/static/js/runtime-main.91ce62ca.js.map",
+    "main.css": "/Portafolio/static/css/main.211c2151.chunk.css",
+    "main.js": "/Portafolio/static/js/main.0c427972.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.0c427972.chunk.js.map",
+    "runtime-main.js": "/Portafolio/static/js/runtime-main.bcb7d198.js",
+    "runtime-main.js.map": "/Portafolio/static/js/runtime-main.bcb7d198.js.map",
     "static/js/2.7989824b.chunk.js": "/Portafolio/static/js/2.7989824b.chunk.js",
     "static/js/2.7989824b.chunk.js.map": "/Portafolio/static/js/2.7989824b.chunk.js.map",
-    "static/js/3.361b3c5e.chunk.js": "/Portafolio/static/js/3.361b3c5e.chunk.js",
-    "static/js/3.361b3c5e.chunk.js.map": "/Portafolio/static/js/3.361b3c5e.chunk.js.map",
+    "static/js/3.38b180dc.chunk.js": "/Portafolio/static/js/3.38b180dc.chunk.js",
+    "static/js/3.38b180dc.chunk.js.map": "/Portafolio/static/js/3.38b180dc.chunk.js.map",
     "index.html": "/Portafolio/index.html",
-    "static/css/main.86d2c893.chunk.css.map": "/Portafolio/static/css/main.86d2c893.chunk.css.map",
-    "static/js/2.7989824b.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.7989824b.chunk.js.LICENSE.txt"
+    "static/css/main.211c2151.chunk.css.map": "/Portafolio/static/css/main.211c2151.chunk.css.map",
+    "static/js/2.7989824b.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.7989824b.chunk.js.LICENSE.txt",
+    "static/media/beautytips4.ed15846b.png": "/Portafolio/static/media/beautytips4.ed15846b.png",
+    "static/media/cifradocesar1.5326a3b6.png": "/Portafolio/static/media/cifradocesar1.5326a3b6.png",
+    "static/media/icons.676e1b7a.svg": "/Portafolio/static/media/icons.676e1b7a.svg",
+    "static/media/onumujeres1.4bf90153.png": "/Portafolio/static/media/onumujeres1.4bf90153.png",
+    "static/media/photo.5d475bed.png": "/Portafolio/static/media/photo.5d475bed.png",
+    "static/media/rickymorty4.657eab52.png": "/Portafolio/static/media/rickymorty4.657eab52.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.91ce62ca.js",
+    "static/js/runtime-main.bcb7d198.js",
     "static/js/2.7989824b.chunk.js",
-    "static/css/main.86d2c893.chunk.css",
-    "static/js/main.a91ce111.chunk.js"
+    "static/css/main.211c2151.chunk.css",
+    "static/js/main.0c427972.chunk.js"
   ]
 }
