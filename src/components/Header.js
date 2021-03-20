@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import './Header.css';
+import logo from './logo.svg'
 
 // function App() {
 //   return (
@@ -33,6 +34,9 @@ const Header = () => {
     <div className="header-container">
 
       <header className="header">
+      <div className="logo-container">
+        <img src={logo} className="header-logo" alt="cgh" />
+        </div>
         <div className="header-content">
           <a href="#projects" className="header-sections">Proyectos</a>
           <a href="#aboutme" className="header-sections">Sobre mí</a>

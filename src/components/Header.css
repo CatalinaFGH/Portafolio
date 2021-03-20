@@ -59,6 +59,18 @@
   justify-content: flex-end;
 }
 
+.logo-container{
+  /* display: flex;
+  justify-content: flex-start; */
+  position: absolute;
+}
+
+.header-logo{
+  width: 140px;
+  padding-top: 3vh;
+  padding-left: 5vh;
+}
+
 .header-sections{
   padding: 2vw;
   text-decoration: none;
