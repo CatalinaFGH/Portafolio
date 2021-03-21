@@ -3,6 +3,7 @@ import onumujeres1 from './onumujeres1.png'
 import beautytips4 from './beautytips4.png'
 import rickymorty4 from './rickymorty4.png'
 import cifradocesar1 from './cifradocesar1.png'
+import onuphoto from './onuphoto.svg'
 
 const Projects = () => {
     return (
@@ -26,6 +27,36 @@ const Projects = () => {
               </a>
             </div>
           </div>
+
+<div className="onu-presentation-container">
+  <h2>Presentación a ONU WOMEN</h2>
+  <img src={onuphoto} className="onu-photo" alt="presentación onu" />
+  <h3>Laboratoria y UN WOMEN | Marzo – 2021</h3>
+  <p className="onu-presentation-description">Tuve la oportunidad de presentar formalmente este proyecto a ONU mujeres,
+    mostrando las principales funcionalidades de la app que desarrollamos con mi equipo.
+    Todo esto fue gracias al trabajo realizado en conjunto de Front-End y UX Designer.
+    Fue un desafío que afrontamos con mucha emoción, ya que la experiencia y el aprendizaje fue muy valioso. </p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           <div className="the-project-container2">
             <div>

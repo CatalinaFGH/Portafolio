@@ -21,9 +21,9 @@ const AboutMe = () => {
                    Me considero una persona muy paciente y atrevida.
                    No temo enfrentar desafíos, ya que disfruto mucho aprender cosas nuevas.
                    </p>
-                   <p className="aboutme-paragraph">
+                   <h3 className="cv-button-text">
                    Te invito a ver mi cv en el siguiente enlace:
-                   </p>
+                   </h3>
              <img src={photo} className="aboutme-page-photo" alt="catalinagonzalez" />
 
              <a href= {CatalinaGonzalez_FrontEndDev} target="_blank">
