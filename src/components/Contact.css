@@ -1,7 +1,7 @@
 .contact-container{
     background-color: #ffffff;
     font-family: Montserrat;
-    height: 100vh;
+    height: 100%;
     padding: 6%;
 }
 
@@ -10,32 +10,29 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
 }
 
 .contact-title{
-    font-size: 40px;
+    font-size: 30px;
 }
 
-.contact-gmail-logo{
-    height: 35px;
-    width: 35px;
-    vertical-align: middle;
-    padding: 5px;
+.contact-title2{
+    color: #C4174F;
 }
 
-.contact-github-logo{
-    height: 35px;
-    width: 35px;
-    vertical-align: middle;
-    padding: 5px;
+.contact-subtitle{
+    font-size: 25px;
+    text-align: center;
 }
 
-.contact-linkedin-logo{
-    height: 35px;
-    width: 35px;
-    vertical-align: middle;
-    padding: 5px;
+.contact-link-style{
+    color: #C4174F;
+    text-decoration: none;
+}
+
+.contact-link-style:hover{
+    text-decoration: underline;
+    color: #E55175;
 }
 
 .contact-links-container{

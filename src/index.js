@@ -8,6 +8,7 @@ import Tools from './components/Tools'
 import Projects from './components/Projects'
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Projects />
     <AboutMe />
     <Contact />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

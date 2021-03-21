@@ -1,0 +1,11 @@
+.the-footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.the-footer{
+    color: #E55175;
+    text-align: center;
+    letter-spacing: 1px;
+}
