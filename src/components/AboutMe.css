@@ -1,7 +1,7 @@
 .aboutme-container{
-    height: 100vh;
+    height: 100%;
     font-family: Montserrat;
-    padding: 6%;
+    padding: 6% 7%;
 }
 
 .aboutme-title-container{
@@ -21,17 +21,18 @@
     border-radius: 100%;
     /* margin-top: -200vh; */
     margin-top: -50vh;
-    margin-left: 55vw;
+    margin-left: 70vw;
 }
 
 .aboutme-paragraph-container{
     /* width: 50vw; */
-    padding-left: 15vw;
+    /* padding-left: 15vw; */
     
 }
 
 .aboutme-paragraph{
-    width: 50vw;
+    width: 60vw;
+    margin-bottom: -1vh;
     font-size: 20px;
 }
 
@@ -42,6 +43,7 @@
     color: #ffffff;
     width: 295px;
     padding: 10px;
+    margin-top: -1vh;
     border-radius: 25px;
     border: 2px solid #E55175;
     cursor: pointer;
@@ -54,4 +56,41 @@
 .aboutme-cv-button:hover{
     background-color: #C4174F;
     border-color: #C4174F;
+}
+
+.aboutme-photos-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.aboutme-photos{
+    height: 40vh;
+    width: 30vw;
+}
+
+.photos-details-container{
+    background-color: #EA7491;
+    color: #ffffff;
+    width: 30vw;
+}
+
+.photos-details-container-S{
+    background-color: #D04572;
+    color: #ffffff;
+    width: 30vw;
+}
+
+.photo-title{
+    padding: 0vw 1vw;
+    letter-spacing: 1px;
+}
+
+.photo-description{
+    padding: 0vw 1vw;
+}
+
+.photo-container{
+    display: flex;
+    flex-direction: column;
 }
