@@ -1,5 +1,6 @@
 .tools-content{
     height: 100vh;
+    width: 100%;
     background-color: #ffffff;
     font-family: montserrat;
     display: flex;
@@ -16,4 +17,29 @@
 
 .tools-icons{
     width: 90vw;
+}
+
+.tools-icons-mobile{
+    display: none;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
+
+    .tools-icons{
+        display: none;
+    }
+
+    .tools-icons-mobile{
+        display: flex;
+        width: 100%;
+    }
+
+    .tools-content{
+        height: 100vh;
+        width: 100%;
+        background-color: blue;
+    }
+
+
 }

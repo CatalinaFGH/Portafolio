@@ -1,5 +1,6 @@
 .aboutme-container{
     height: 100%;
+    width: 100%;
     font-family: Montserrat;
     /* padding: 6% 7%; */
 }
@@ -97,4 +98,62 @@
 .photo-container{
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
+
+    .aboutme-container{
+        width: 200%;
+        /* padding: 6% 7%; */
+    }
+
+    .aboutme-page-photo{
+        /* margin-top: 15%;
+        margin-left: 85vw; */
+        display: none;
+    }
+
+    .aboutme-paragraph{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+
+    .cv-button-text{
+        margin-bottom: 3%;
+        margin-left: 22%;
+    }
+
+    .aboutme-cv-button{
+    
+        width: 295px;
+        padding: 10px;
+        margin-bottom: 10vh;
+        margin-left: 30%;
+    }
+    
+    .aboutme-photos-container{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .aboutme-photos{
+        height: 50%;
+        width: 100%;
+    }
+
+    .photos-details-container-S{
+        width: 100%;
+    }
+
+    .photos-details-container{
+        width: 100%;
+    }
+
+
+
+
+
+
 }
