@@ -9,7 +9,6 @@ const Contact = () => {
            </div>
            <div className="contact-links-container">
              <h3 className="contact-subtitle">¡Estaré feliz de leerte!</h3>
-            
              <h3 className="contact-subtitle">
              Además, puedes encontrarme en<br></br>
                <a rel="noopener noreferrer" href="https://www.linkedin.com/in/catalina-fgh/" target="_blank" className="contact-link-style">LinkedIn</a>,

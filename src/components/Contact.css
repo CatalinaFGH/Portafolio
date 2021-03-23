@@ -50,5 +50,12 @@
         width: 200%;
     }
 
+    .contact-title{
+        font-size: 35px;
+    }
 
+    .contact-subtitle{
+        font-size: 35px;
+        text-align: center;
+    }
 }

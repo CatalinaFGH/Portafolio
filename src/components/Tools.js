@@ -1,6 +1,6 @@
 import './Tools.css'
-import icons from './icons.svg'
-import iconsmobile from './iconsmobile.svg'
+import icons from '../images/icons.svg'
+import iconsmobile from '../images/iconsmobile.svg'
 
 const Tools = () => {
     return (

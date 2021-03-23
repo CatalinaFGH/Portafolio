@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import './Header.css';
-import logo from './logo.svg'
+import logo from '../images/logo.svg'
 
 // function App() {
 //   return (

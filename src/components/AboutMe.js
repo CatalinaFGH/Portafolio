@@ -1,9 +1,9 @@
 import './AboutMe.css'
-import photo from './photo.png'
-import CatalinaGonzalez_FrontEndDev from './CatalinaGonzalez_FrontEndDev.pdf'
-import tallerista from './tallerista.jpg'
-import mediadora from './mediadora.jpg'
-import oradora from './oradora.png'
+import photo from '../images/photo.png'
+import CatalinaGonzalez_FrontEndDev from '../images/CatalinaGonzalez_FrontEndDev.pdf'
+import tallerista from '../images/tallerista.jpg'
+import mediadora from '../images/mediadora.jpg'
+import oradora from '../images/oradora.png'
 
 const AboutMe = () => {
     return (

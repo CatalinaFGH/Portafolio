@@ -1,7 +1,7 @@
 import './WelcomePage.css'
-import photo from './photo.png';
-import hand from './hand.svg';
-import laptop from './laptop.svg';
+import photo from '../images/photo.png';
+import hand from '../images/hand.svg';
+import laptop from '../images/laptop.svg';
 
 const WelcomePage = () => {
    return (

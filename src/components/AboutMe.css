@@ -131,7 +131,7 @@
         margin-bottom: 10vh;
         margin-left: 30%;
     }
-    
+
     .aboutme-photos-container{
         display: flex;
         flex-direction: column;
@@ -150,10 +150,4 @@
     .photos-details-container{
         width: 100%;
     }
-
-
-
-
-
-
 }
