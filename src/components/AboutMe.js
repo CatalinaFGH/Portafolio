@@ -29,7 +29,7 @@ const AboutMe = () => {
              <a href= {CatalinaGonzalez_FrontEndDev} target="_blank">
                <button className="aboutme-cv-button">VER CURRICULUM VITAE</button>
              </a>
-
+             <img src={photo} className="aboutme-page-photo-mobile" alt="catalinagonzalez" />
              <div className="aboutme-photos-container">
 
                <div className="photo-container">

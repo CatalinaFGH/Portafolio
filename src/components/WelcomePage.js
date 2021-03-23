@@ -14,7 +14,7 @@ const WelcomePage = () => {
         Soy Catalina González</h1>
         <h4 className="welcome-subtitle">Front-End Developer<img src={laptop} className="welcome-page-laptop" alt="cool laptop" /></h4>
       </div>
-
+      <img src={photo} className="welcome-page-photo-mobile" alt="catalinagonzalez" />
       
 
      </div>

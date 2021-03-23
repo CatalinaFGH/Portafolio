@@ -157,15 +157,40 @@
 @media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
 
     .onu-photo{
-        width: 250%;
+        width: 100%;
     }
+
     .onu-presentation-container{
-        width: 200%;
+        width: 100%;
+        font-size: 25px;
     }
     
     .onu-presentation-description{
-        width: 75%;
+        width: 80%;
         padding-bottom: 5vh;
-        font-size: 26px;
+        font-size: 30px;
     }
+
+    .projects-container{
+       
+        width: 200%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
