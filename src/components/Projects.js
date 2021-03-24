@@ -1,8 +1,8 @@
 import './Projects.css'
-import onumujeres1 from '../images/onumujeres1.png'
-import beautytips4 from '../images/beautytips4.png'
-import rickymorty4 from '../images/rickymorty4.png'
-import cifradocesar1 from '../images/cifradocesar1.png'
+import tuoportunidad from '../images/tuoportunidad.svg'
+import socialnetwork from '../images/socialnetwork.svg'
+import datalovers from '../images/datalovers.svg'
+import caesarcipher from '../images/caesarcipher.svg'
 import onuphoto from '../images/onuphoto.svg'
 
 const Projects = () => {
@@ -13,7 +13,7 @@ const Projects = () => {
 
           <div className="the-project-container1">
             <div>
-              <img src={onumujeres1} className="project-onu-photo" alt="tu oportunidad" />
+              <img src={tuoportunidad} className="project-onu-photo" alt="tu oportunidad" />
           </div>
             <div className="project-description">
               <h3 className="the-project-name">TU OPORTUNIDAD</h3>
@@ -41,7 +41,7 @@ const Projects = () => {
 
           <div className="the-project-container2">
             <div>
-              <img src={beautytips4} className="project-beautytips-photo" alt="beauty tips" />
+              <img src={socialnetwork} className="project-beautytips-photo" alt="beauty tips" />
           </div>
             <div className="project-description">
               <h3 className="the-project-name">SOCIAL NETWORK</h3>
@@ -58,7 +58,7 @@ const Projects = () => {
 
           <div className="the-project-container">
             <div>
-              <img src={rickymorty4} className="project-rickymorty-photo" alt="rick y morty" />
+              <img src={datalovers} className="project-rickymorty-photo" alt="rick y morty" />
           </div>
             <div className="project-description">
               <h3 className="the-project-name">DATA LOVERS</h3>
@@ -75,7 +75,7 @@ const Projects = () => {
 
           <div className="the-project-container2">
             <div>
-              <img src={cifradocesar1} className="project-cifradocesar-photo" alt="cifrado cesar" />
+              <img src={caesarcipher} className="project-cifradocesar-photo" alt="cifrado cesar" />
           </div>
             <div className="project-description">
               <h3 className="the-project-name">CAESAR CIPHER</h3>

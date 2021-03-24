@@ -27,7 +27,7 @@
 }
 
 .aboutme-paragraph{
-    width: 60vw;
+    width: 63vw;
     font-size: 20px;
     text-align: justify;
     margin-left: 7vw;
@@ -108,7 +108,7 @@
 
     .aboutme-container{
         width: 200%;
-        /* padding: 6% 7%; */
+        padding: 18% 0%;
     }
 
     .aboutme-page-photo{
@@ -118,10 +118,11 @@
     }
 
     .aboutme-paragraph{
-        width: 80%;
+        width: 81%;
         margin-left: 10%;
         margin-right: 10%;
         font-size: 25px;
+        text-align: center;
     }
 
     .cv-button-text{
