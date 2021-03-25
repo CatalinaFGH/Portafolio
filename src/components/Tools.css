@@ -26,6 +26,10 @@
 
 @media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
 
+    .tools-title{
+        padding-top: 10%;
+    }
+
     .tools-icons{
         display: none;
     }
@@ -38,8 +42,5 @@
     .tools-content{
         height: 100vh;
         width: 200%;
-        /* background-color: blue; */
     }
-
-
 }

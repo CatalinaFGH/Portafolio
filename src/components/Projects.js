@@ -11,14 +11,15 @@ const Projects = () => {
 
           <h2 className="projects-title">Proyectos</h2>
 
-          <div className="the-project-container1">
+          <div className="the-project-container-onu">
             <div>
               <img src={tuoportunidad} className="project-onu-photo" alt="tu oportunidad" />
           </div>
             <div className="project-description">
               <h3 className="the-project-name">TU OPORTUNIDAD</h3>
-              <p>Plataforma web con vista mobile que permite la comunicación de las participantes del programa "Tu Oportunidad" de ONU mujeres.</p>
-              <p className="the-project-tools">Desarrollada con HTML5, CSS3, Vanilla Javascript y Firebase.</p>
+              <p>Plataforma exclusiva de vista mobile que permite la comunicación de las participantes del programa "Tu Oportunidad" de ONU mujeres.</p>
+              <p className="the-project-tools">Desarrollada con HTML5, CSS3, Vanilla Javascript y Firebase.<br></br>
+                                               *Solo mobile view - Usuario: catalina@gmail.com y Contraseña: usuaria</p>
               <a rel="noopener noreferrer" href="https://catalinafgh.github.io/Tu-oportunidad-ONU-Mujeres/src/" target="_blank">
                 <button className="project-demo-button">DEMO</button>
               </a>
@@ -31,7 +32,9 @@ const Projects = () => {
           <div className="onu-presentation-container">
              <h2>Presentación a ONU WOMEN</h2>
              <img src={onuphoto} className="onu-photo" alt="presentación onu" />
-             <h3>Laboratoria y UN WOMEN | Marzo – 2021</h3>
+             <h3><a rel="noopener noreferrer" href="https://hub.laboratoria.la/de-laboratoria-a-la-onu" target="_blank" className="onu-link-style">
+               Laboratoria y UN WOMEN | Marzo – 2021</a>
+             </h3>
              <p className="onu-presentation-description">Tuve la oportunidad de presentar formalmente este proyecto a ONU mujeres,
                                                          mostrando las principales funcionalidades de la app que desarrollamos con mi equipo.
                                                          Todo esto fue gracias al trabajo realizado en conjunto de Front-End y UX Designer.
@@ -39,7 +42,7 @@ const Projects = () => {
           </div>
 
 
-          <div className="the-project-container2">
+          <div className="the-project-container-white">
             <div>
               <img src={socialnetwork} className="project-beautytips-photo" alt="beauty tips" />
           </div>
@@ -56,7 +59,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="the-project-container">
+          <div className="the-project-container-pink">
             <div>
               <img src={datalovers} className="project-rickymorty-photo" alt="rick y morty" />
           </div>
@@ -73,7 +76,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="the-project-container2">
+          <div className="the-project-container-white">
             <div>
               <img src={caesarcipher} className="project-cifradocesar-photo" alt="cifrado cesar" />
           </div>

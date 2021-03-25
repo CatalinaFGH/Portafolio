@@ -15,10 +15,17 @@
 
 .contact-title{
     font-size: 30px;
+    text-align: center;
 }
 
-.contact-title2{
+.contact-title-mail{
     color: #C4174F;
+    text-decoration: none;
+}
+
+.contact-title-mail:hover{
+    text-decoration: underline;
+    color: #E55175;
 }
 
 .contact-subtitle{

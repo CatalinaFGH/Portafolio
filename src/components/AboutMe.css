@@ -18,25 +18,26 @@
 }
 
 .aboutme-page-photo{
-    height: 250px;
-    width: 250px;
+    height: 290px;
+    width: 290px;
     border-radius: 100%;
     /* margin-top: -200vh; */
     margin-top: -50vh;
-    margin-left: 75vw;
+    margin-left: 73vw;
+}
+
+.aboutme-subtitle{
+    margin-left: 7vw;
+    font-size: 25px;
+
 }
 
 .aboutme-paragraph{
-    width: 63vw;
+    width: 56vw;
     font-size: 20px;
     text-align: justify;
     margin-left: 7vw;
     margin-bottom: 5vh;
-}
-
-.cv-button-text{
-    margin-bottom: -1vh;
-    margin-left: 7vw;
 }
 
 .aboutme-cv-button{
@@ -80,7 +81,7 @@
     width: 32.9vw;
 }
 
-.photos-details-container-S{
+.photos-details-container-middle{
     background-color: #D04572;
     color: #ffffff;
     width: 32.9vw;
@@ -108,31 +109,29 @@
 
     .aboutme-container{
         width: 200%;
-        padding: 18% 0%;
+        padding-top: 18%;
     }
 
     .aboutme-page-photo{
-        /* margin-top: 15%;
-        margin-left: 85vw; */
         display: none;
+    }
+
+    .aboutme-subtitle{
+        margin-left: 10%;
+        text-align: center;
+        width: 80%;
+        font-size: 30px;
     }
 
     .aboutme-paragraph{
         width: 81%;
         margin-left: 10%;
         margin-right: 10%;
-        font-size: 25px;
+        font-size: 28px;
         text-align: center;
     }
 
-    .cv-button-text{
-        margin-bottom: 3%;
-        margin-left: 15%;
-        font-size: 25px;
-    }
-
     .aboutme-cv-button{
-    
         width: 350px;
         padding: 20px;
         margin-bottom: 5%;
@@ -144,6 +143,7 @@
     .aboutme-photos-container{
         display: flex;
         flex-direction: column;
+        margin-top: 10%;
     }
 
     .aboutme-photos{
@@ -151,7 +151,7 @@
         width: 100%;
     }
 
-    .photos-details-container-S{
+    .photos-details-container-middle{
         width: 100%;
     }
 
@@ -175,9 +175,8 @@
 
     .aboutme-page-photo-mobile{
         display: flex;
-        height: 270px;
-        width: 270px;
-        border-radius: 100%;
-        margin-left: 33%;
+        height: 320px;
+        width: 320px;
+        margin: 3% 28%;
     }
 }

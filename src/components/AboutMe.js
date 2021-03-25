@@ -1,5 +1,5 @@
 import './AboutMe.css'
-import photo from '../images/photo.png'
+import myphoto from '../images/mypicture2.svg'
 import CatalinaGonzalez_FrontEndDev from '../images/CatalinaGonzalez_FrontEndDev.pdf'
 import tallerista from '../images/tallerista.jpg'
 import mediadora from '../images/mediadora.jpg'
@@ -14,22 +14,19 @@ const AboutMe = () => {
            </div>
            
            <div className="aboutme-paragraph-container">
+             <h3 className="aboutme-subtitle">Soy Front-End Developer, traductora y profesora de japonés.</h3>
              <p className="aboutme-paragraph">
-                   Soy Front-End Developer, traductora y profesora de japonés.
                    Me apasionan los idiomas, la cultura japonesa, el anime, manga y el código.
                    Soy autodidacta, resiliente y me agrada trabajar en equipo.
                    Me considero una persona muy paciente y atrevida.
                    No temo enfrentar desafíos, ya que disfruto mucho aprender cosas nuevas.
                    </p>
-                   <h3 className="cv-button-text">
-                   Te invito a ver mi cv en el siguiente enlace:
-                   </h3>
-             <img src={photo} className="aboutme-page-photo" alt="catalinagonzalez" />
+             <img src={myphoto} className="aboutme-page-photo" alt="catalinagonzalez" />
 
              <a href= {CatalinaGonzalez_FrontEndDev} target="_blank">
                <button className="aboutme-cv-button">VER CURRICULUM VITAE</button>
              </a>
-             <img src={photo} className="aboutme-page-photo-mobile" alt="catalinagonzalez" />
+             <img src={myphoto} className="aboutme-page-photo-mobile" alt="catalinagonzalez" />
              <div className="aboutme-photos-container">
 
                <div className="photo-container">
@@ -42,7 +39,7 @@ const AboutMe = () => {
 
                <div className="photo-container">
                <img src={mediadora} className="aboutme-photos" alt="mediadora" />
-                    <div className="photos-details-container-S">
+                    <div className="photos-details-container-middle">
                        <h4 className="photo-title">Mediadora de lectura</h4>
                        <p className="photo-description">Mediadora cultural y cuenta cuentos en Biblioteca Viva Vespucio</p>
                     </div>

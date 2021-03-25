@@ -1,5 +1,5 @@
 import './WelcomePage.css'
-import photo from '../images/photo.png';
+import photo from '../images/mypicture.svg';
 import hand from '../images/hand.svg';
 import laptop from '../images/laptop.svg';
 
