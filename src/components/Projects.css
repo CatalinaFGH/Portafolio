@@ -129,19 +129,31 @@
 .onu-presentation-description{
     width: 60vw;
     text-align: center;
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
     font-size: 20px;
 }
 
-.onu-link-style{
-    color: #C4174F;
-    text-decoration: none;
+.onu-article-button{
+    background-color: #E55175;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    width: 180px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #E55175;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s;
 }
 
-.onu-link-style:hover{
-    text-decoration: underline;
-    color: #E55175;
+.onu-article-button:hover{
+    background-color: #C4174F;
+    border-color: #C4174F;
 }
+
 
 @media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
 
@@ -156,7 +168,7 @@
     
     .onu-presentation-description{
         width: 80%;
-        padding-bottom: 5vh;
+        padding-bottom: 10vh;
         font-size: 30px;
     }
 
@@ -208,6 +220,13 @@
         width: 150px;
         padding: 20px;
         margin-left: 5px;
+        border-radius: 35px;
+    }
+
+    .onu-article-button{
+        font-size: 20px;
+        width: 250px;
+        padding: 20px;
         border-radius: 35px;
     }
   }

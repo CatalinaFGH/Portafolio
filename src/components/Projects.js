@@ -32,9 +32,11 @@ const Projects = () => {
           <div className="onu-presentation-container">
              <h2>Presentación a ONU WOMEN</h2>
              <img src={onuphoto} className="onu-photo" alt="presentación onu" />
-             <h3><a rel="noopener noreferrer" href="https://hub.laboratoria.la/de-laboratoria-a-la-onu" target="_blank" className="onu-link-style">
-               Laboratoria y UN WOMEN | Marzo – 2021</a>
-             </h3>
+             <h3>Laboratoria y UN WOMEN | Marzo – 2021</h3>
+             <a rel="noopener noreferrer" href="https://hub.laboratoria.la/de-laboratoria-a-la-onu" target="_blank">
+                <button className="onu-article-button">VER ARTÍCULO</button>
+              </a>
+
              <p className="onu-presentation-description">Tuve la oportunidad de presentar formalmente este proyecto a ONU mujeres,
                                                          mostrando las principales funcionalidades de la app que desarrollamos con mi equipo.
                                                          Todo esto fue gracias al trabajo realizado en conjunto de Front-End y UX Designer.
