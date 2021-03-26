@@ -30,7 +30,7 @@ const Projects = () => {
           </div>
 
           <div className="onu-presentation-container">
-             <h2>Presentación a ONU WOMEN</h2>
+             <h2>Presentación a ONU Mujeres</h2>
              <img src={onuphoto} className="onu-photo" alt="presentación onu" />
              <h3>Laboratoria y UN WOMEN | Marzo – 2021</h3>
              <a rel="noopener noreferrer" href="https://hub.laboratoria.la/de-laboratoria-a-la-onu" target="_blank">
