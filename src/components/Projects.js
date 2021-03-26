@@ -37,8 +37,8 @@ const Projects = () => {
                 <button className="onu-article-button">VER ARTÍCULO</button>
               </a>
 
-             <p className="onu-presentation-description">Tuve la oportunidad de presentar formalmente este proyecto a ONU mujeres,
-                                                         mostrando las principales funcionalidades de la app que desarrollamos con mi equipo.
+             <p className="onu-presentation-description">Tuve la oportunidad de presentar formalmente este proyecto al equipo de ONU mujeres de Nueva York y Ginebra,
+                                                         expresando todo en inglés, mostré las principales funcionalidades de la app que desarrollamos con mi equipo.
                                                          Todo esto fue gracias al trabajo realizado en conjunto de Front-End y UX Designer.
                                                          Fue un desafío que afrontamos con mucha emoción, ya que la experiencia y el aprendizaje fue muy valioso. </p>
           </div>
