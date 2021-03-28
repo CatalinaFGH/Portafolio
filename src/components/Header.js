@@ -4,20 +4,17 @@ import logo from '../images/logo.svg'
 const Header = () => {
   return (
     <div className="header-container">
-
       <header className="header">
-      <div className="logo-container">
-        <img src={logo} className="header-logo" alt="cgh" />
-        </div>
-        <div className="header-content">
-          <a href="#projects" className="header-sections">Proyectos</a>
-          <a href="#aboutme" className="header-sections">Sobre mí</a>
-          <a href="#contact" className="header-sections">Contacto</a>
-        </div>
+          <nav>
+             <img src={logo} className="header-logo" alt="cata();" />
+                <ul className="header-content">
+                   <li><a href="#projects" className="header-sections">Proyectos</a></li>
+                   <li><a href="#aboutme" className="header-sections">Sobre mí</a></li>
+                   <li><a href="#contact" className="header-sections">Contacto</a></li>
+                </ul>
+          </nav>
       </header>
-
     </div>
   );
-
 }
 export default Header;
