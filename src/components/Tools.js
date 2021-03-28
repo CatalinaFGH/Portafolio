@@ -4,19 +4,15 @@ import iconsmobile from '../images/iconsmobile.svg'
 
 const Tools = () => {
     return (
-
-       <div className="tools-content">
-
+       <section className="tools-content">
           <div>
-          <h2 className="tools-title">Herramientas</h2>
-          </div> 
-        
-        <div>
-          <img src={icons} className="tools-icons" alt="my icons" />
-          <img src={iconsmobile} className="tools-icons-mobile" alt="my icons" />
-        </div>
-           
-       </div>
+             <h2 className="tools-title">Herramientas</h2>
+          </div>
+          <div>
+             <img src={icons} className="tools-icons" alt="my icons" />
+             <img src={iconsmobile} className="tools-icons-mobile" alt="my icons" />
+          </div>
+       </section>
 
  )
 }
