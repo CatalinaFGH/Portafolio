@@ -13,7 +13,7 @@ const AboutMe = () => {
              </h2>
            </div>
            <div className="aboutme-paragraph-container">
-             <h3 className="aboutme-subtitle">Soy Front-End Developer, traductora y profesora de japonés.
+             <h3 className="aboutme-subtitle">Soy Front-End Developer, traductora de inglés y profesora de japonés.
              </h3>
              <p className="aboutme-paragraph">
                    Me apasionan los idiomas, la cultura japonesa, el anime, manga y el código.

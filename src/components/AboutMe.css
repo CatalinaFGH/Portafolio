@@ -28,8 +28,7 @@
 
 .aboutme-subtitle{
     margin-left: 7vw;
-    font-size: 25px;
-
+    font-size: 21px;
 }
 
 .aboutme-paragraph{
@@ -108,7 +107,6 @@
 @media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
 
     .aboutme-container{
-        width: 200%;
         padding-top: 18%;
     }
 
@@ -116,28 +114,30 @@
         display: none;
     }
 
+    .aboutme-title{
+        font-size: 35px;
+    }
+
     .aboutme-subtitle{
-        margin-left: 10%;
+        margin-left: 0vw;
         text-align: center;
-        width: 80%;
-        font-size: 30px;
+        font-size: 24px;
+        margin-top: -1vh;
     }
 
     .aboutme-paragraph{
-        width: 81%;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 28px;
+        width: 85%;
+        font-size: 23px;
         text-align: center;
     }
 
     .aboutme-cv-button{
-        width: 350px;
-        padding: 20px;
+        width: 90vw;
+        padding: 2vh;
         margin-bottom: 5%;
-        margin-left: 26%;
         border-radius: 35px;
         font-size: 20px;
+        margin-left: 5vw;
     }
 
     .aboutme-photos-container{
@@ -161,7 +161,7 @@
 
     .photo-title{
         padding: 0% 1%;
-        font-size: 30px;
+        font-size: 22px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -169,14 +169,13 @@
 
     .photo-description{
         padding: 0% 0%;
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
 
     .aboutme-page-photo-mobile{
         display: flex;
-        height: 320px;
-        width: 320px;
-        margin: 3% 28%;
+        height: 40vh;
+        margin: 2% 15%;
     }
 }

@@ -50,30 +50,33 @@
 
     .welcome-page-photo-mobile{
         display: flex;
-        border-radius: 100%;
-        width: 400px;
-        height: 400px;
-        margin-bottom: 10%;
+        height: 40vh;
+        margin-bottom: 15%;
+        margin-left: 0vw;
     }
 
     .welcome-page-container{
         height: 100%;
-        width: 200%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-       
     }
     
     .welcome-page-title{
         font-weight: bold;
-        font-size: 55px;
+        font-size: 25px;
         margin-left: 0vw;
+        margin-top: 5vh;
     }
 
     .welcome-subtitle{
-        font-size: 45px;
+        font-size: 20px;
+        margin-left: 0vw;
+    }
+
+    .welcome-page-hand {
+        padding-bottom: 0vh;
     }
 
 }
