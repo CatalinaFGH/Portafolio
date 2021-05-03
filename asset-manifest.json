@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.4f397eef.chunk.css",
-    "main.js": "/Portafolio/static/js/main.1331b4a4.chunk.js",
-    "main.js.map": "/Portafolio/static/js/main.1331b4a4.chunk.js.map",
+    "main.css": "/Portafolio/static/css/main.495a47d3.chunk.css",
+    "main.js": "/Portafolio/static/js/main.45c575aa.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.45c575aa.chunk.js.map",
     "runtime-main.js": "/Portafolio/static/js/runtime-main.24517ba6.js",
     "runtime-main.js.map": "/Portafolio/static/js/runtime-main.24517ba6.js.map",
     "static/js/2.7989824b.chunk.js": "/Portafolio/static/js/2.7989824b.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.c8af3f11.chunk.js": "/Portafolio/static/js/3.c8af3f11.chunk.js",
     "static/js/3.c8af3f11.chunk.js.map": "/Portafolio/static/js/3.c8af3f11.chunk.js.map",
     "index.html": "/Portafolio/index.html",
-    "static/css/main.4f397eef.chunk.css.map": "/Portafolio/static/css/main.4f397eef.chunk.css.map",
+    "static/css/main.495a47d3.chunk.css.map": "/Portafolio/static/css/main.495a47d3.chunk.css.map",
     "static/js/2.7989824b.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.7989824b.chunk.js.LICENSE.txt",
     "static/media/CatalinaGonzalez_FrontEndDev.509d5766.pdf": "/Portafolio/static/media/CatalinaGonzalez_FrontEndDev.509d5766.pdf",
     "static/media/caesarcipher.095ec68a.svg": "/Portafolio/static/media/caesarcipher.095ec68a.svg",
     "static/media/datalovers.1bd7d702.svg": "/Portafolio/static/media/datalovers.1bd7d702.svg",
     "static/media/hand.31680820.svg": "/Portafolio/static/media/hand.31680820.svg",
     "static/media/icons.54331378.svg": "/Portafolio/static/media/icons.54331378.svg",
-    "static/media/iconsmobile.3f691176.svg": "/Portafolio/static/media/iconsmobile.3f691176.svg",
+    "static/media/iconsmobile.2057aac5.svg": "/Portafolio/static/media/iconsmobile.2057aac5.svg",
     "static/media/laptop.2deee647.svg": "/Portafolio/static/media/laptop.2deee647.svg",
     "static/media/logo.f09450fb.svg": "/Portafolio/static/media/logo.f09450fb.svg",
     "static/media/mediadora.210845b2.jpg": "/Portafolio/static/media/mediadora.210845b2.jpg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.24517ba6.js",
     "static/js/2.7989824b.chunk.js",
-    "static/css/main.4f397eef.chunk.css",
-    "static/js/main.1331b4a4.chunk.js"
+    "static/css/main.495a47d3.chunk.css",
+    "static/js/main.45c575aa.chunk.js"
   ]
 }
