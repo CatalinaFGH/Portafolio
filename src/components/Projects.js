@@ -66,10 +66,10 @@ const Projects = () => {
                   <p>Plataforma web con vista mobile tipo enciclopedia de la serie "Rick and Morty". Permite filtrar y ordenar la data.<br></br><br></br>
                   <span className="the-project-tools">Desarrollada con HTML5, CSS3 y Vanilla Javascript.</span>
                   </p>
-                  <a rel="noopener noreferrer" href="https://catalinafgh.github.io/SCL015-data-lovers/src/" target="_blank">
+                  <a rel="noopener noreferrer" href="https://catalinafgh.github.io/DataLovers2/src/" target="_blank">
                      <button className="project-demo-button">DEMO</button>
                   </a>
-                  <a rel="noopener noreferrer" href="https://github.com/CatalinaFGH/SCL015-data-lovers" target="_blank" >
+                  <a rel="noopener noreferrer" href="https://github.com/CatalinaFGH/DataLovers2" target="_blank" >
                      <button className="project-github-button">GITHUB</button>
                   </a>
               </div>
